@@ -1,4 +1,4 @@
-# BlockStatsAPI
+# Get That Paper (API)
 
 Paper plugin for Minecraft 1.21.1 that tracks per-player block breaks into SQLite and exposes a small REST API for leaderboards and web integrations.
 
