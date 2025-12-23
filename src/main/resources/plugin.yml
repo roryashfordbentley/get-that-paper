@@ -1,0 +1,6 @@
+name: BlockStatsAPI
+main: com.getthatpaper.blockstats.BlockStatsPlugin
+version: 1.0.0
+api-version: 1.21.1
+description: Tracks block breaks and exposes a REST API for stats.
+author: GetThatPaper
