@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.getthatpaper</groupId>
-    <artifactId>blockstats-api</artifactId>
+    <artifactId>getthatpaper</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>BlockStatsAPI</name>
-    <description>Paper plugin that records block breaks and exposes REST endpoints.</description>
+    <name>Get That Paper</name>
+    <description>Paper plugin that tracks block breaks and exposes a REST API for leaderboards (GetThatPaper).</description>
 
     <properties>
         <java.version>21</java.version>

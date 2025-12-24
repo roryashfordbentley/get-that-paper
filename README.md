@@ -1,6 +1,6 @@
-# Get That Paper (API)
+# Get That Paper (GetThatPaper)
 
-Paper plugin for Minecraft 1.21.1 that tracks per-player block breaks into SQLite and exposes a small REST API for leaderboards and web integrations.
+Paper plugin for Minecraft 1.21.1 that tracks per-player block breaks into SQLite and exposes a REST API for leaderboards and web integrations.
 
 ## Features
 
@@ -21,16 +21,16 @@ Paper plugin for Minecraft 1.21.1 that tracks per-player block breaks into SQLit
 mvn package
 ```
 
-The shaded plugin jar will be at `target/blockstats-api-1.0.0.jar`.
+The shaded plugin jar will be at `target/getthatpaper-1.0.0.jar`.
 
 ## Install
 
 1. Copy the jar to your Paper server `plugins/` folder.
-2. Start the server once to generate `plugins/BlockStatsAPI/config.yml`.
+2. Start the server once to generate `plugins/GetThatPaper/config.yml`.
 3. Adjust config (host/port/context/db filename) if needed.
 4. Restart the server.
 
-## Configuration (plugins/BlockStatsAPI/config.yml)
+## Configuration (plugins/GetThatPaper/config.yml)
 
 ```yaml
 api:
